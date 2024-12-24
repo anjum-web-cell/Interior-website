@@ -1,0 +1,9 @@
+td {
+    border: 2px dotted yellowgreen;
+    color: blue;
+}
+
+
+table {
+    border-collapse: collapse;
+}

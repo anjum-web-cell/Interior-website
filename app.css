@@ -1,0 +1,45 @@
+/* psuedo selectors */
+
+
+a:hover{
+    background: teal;
+    text-decoration: none;
+    color: brown;
+}
+
+a:visited{
+    background-color: yellow;
+}
+
+a:active{
+    background-color: red;
+}
+
+
+
+/* pseudo elements */
+
+p::first-letter{
+    font-size: 50px;
+}
+
+p::after{
+    content: "Hello!!!...." ;
+}
+
+P::before{
+    content: "Hiiiiiiiiiii....";
+}
+
+
+p::first-line{
+    background-color: yellow;
+}
+
+
+
+p::selection{
+    background-color: brown;
+    text-decoration: underline;
+    color: white;
+}
